@@ -1,10 +1,10 @@
-package tv.stardream.proton.dracula.functional.gui;
+package tv.stardream.Proton.dracula.functional.gui;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import tv.stardream.proton.dracula.functional.BaseSeleniumTestCase;
+import tv.stardream.Proton.dracula.functional.BaseSeleniumTestCase;
 
 public class ProfileFT extends BaseSeleniumTestCase {
 

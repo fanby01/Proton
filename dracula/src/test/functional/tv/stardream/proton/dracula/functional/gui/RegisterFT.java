@@ -1,10 +1,10 @@
-package tv.stardream.proton.dracula.functional.gui;
+package tv.stardream.Proton.dracula.functional.gui;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import tv.stardream.proton.dracula.functional.BaseSeleniumTestCase;
+import tv.stardream.Proton.dracula.functional.BaseSeleniumTestCase;
 
 public class RegisterFT extends BaseSeleniumTestCase {
 
@@ -21,14 +21,14 @@ public class RegisterFT extends BaseSeleniumTestCase {
 		s.click(By.id("submit_btn"));
 
 		//跳转到登录页
-		assertEquals("dracula study project示例:登录页", s.getTitle());
+		assertEquals("dracula示例:登录页", s.getTitle());
 		assertEquals("user2", s.getValue(By.name("username")));
 
 		s.type(By.name("password"), "user2");
 		s.click(By.id("submit_btn"));
 
 		//登陆成功
-		assertEquals("dracula study project示例:任务管理", s.getTitle());
+		assertEquals("dracula示例:任务管理", s.getTitle());
 
 		//退出用户
 		s.open("/logout");

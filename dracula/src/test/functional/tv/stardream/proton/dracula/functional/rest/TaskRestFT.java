@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.functional.rest;
+package tv.stardream.Proton.dracula.functional.rest;
 
 import static org.junit.Assert.*;
 
@@ -13,9 +13,9 @@ import org.junit.experimental.categories.Category;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
-import tv.stardream.proton.dracula.data.TaskData;
-import tv.stardream.proton.dracula.entity.Task;
-import tv.stardream.proton.dracula.functional.BaseFunctionalTestCase;
+import tv.stardream.Proton.dracula.data.TaskData;
+import tv.stardream.Proton.dracula.entity.Task;
+import tv.stardream.Proton.dracula.functional.BaseFunctionalTestCase;
 import org.springside.modules.mapper.JsonMapper;
 import org.springside.modules.test.category.Smoke;
 

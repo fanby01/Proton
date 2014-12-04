@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>tv.stardream.proton</groupId>
+	<groupId>tv.stardream.Proton</groupId>
 	<artifactId>dracula</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>dracula study project</name>
+	<name>dracula</name>
 
 	<properties>
 		<!-- 主要依赖库的版本定义 -->
@@ -37,11 +37,9 @@
 		<jdbc.driver.groupId>com.h2database</jdbc.driver.groupId>
 		<jdbc.driver.artifactId>h2</jdbc.driver.artifactId>
 		<jdbc.driver.version>${h2.version}</jdbc.driver.version>
-		<!--
-			<jdbc.driver.groupId>mysql</jdbc.driver.groupId>
-			<jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
-			<jdbc.driver.version>5.1.21</jdbc.driver.version>
-		-->	
+		<jdbc.driver.groupId>mysql</jdbc.driver.groupId>
+		<jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
+		<jdbc.driver.version>5.1.21</jdbc.driver.version>
 	</properties>
 	
 	<repositories>

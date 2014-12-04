@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.web.account;
+package tv.stardream.Proton.dracula.web.account;
 
 import javax.validation.Valid;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import tv.stardream.proton.dracula.entity.User;
-import tv.stardream.proton.dracula.service.account.AccountService;
-import tv.stardream.proton.dracula.service.account.ShiroDbRealm.ShiroUser;
+import tv.stardream.Proton.dracula.entity.User;
+import tv.stardream.Proton.dracula.service.account.AccountService;
+import tv.stardream.Proton.dracula.service.account.ShiroDbRealm.ShiroUser;
 
 /**
  * 用户修改自己资料的Controller.

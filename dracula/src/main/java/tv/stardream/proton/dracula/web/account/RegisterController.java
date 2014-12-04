@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.web.account;
+package tv.stardream.Proton.dracula.web.account;
 
 import javax.validation.Valid;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import tv.stardream.proton.dracula.entity.User;
-import tv.stardream.proton.dracula.service.account.AccountService;
+import tv.stardream.Proton.dracula.entity.User;
+import tv.stardream.Proton.dracula.service.account.AccountService;
 
 /**
  * 用户注册的Controller.

@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.repository;
+package tv.stardream.Proton.dracula.repository;
 
 import static org.junit.Assert.*;
 
@@ -8,7 +8,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.test.context.ContextConfiguration;
-import tv.stardream.proton.dracula.entity.Task;
+import tv.stardream.Proton.dracula.entity.Task;
 import org.springside.modules.test.spring.SpringTransactionalTestCase;
 
 @ContextConfiguration(locations = { "/applicationContext.xml" })

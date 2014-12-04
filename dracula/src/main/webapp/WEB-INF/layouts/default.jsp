@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>dracula study project示例:<sitemesh:title/></title>
+<title>dracula示例(测试):<sitemesh:title/>haha</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta http-equiv="Cache-Control" content="no-store" />
 <meta http-equiv="Pragma" content="no-cache" />

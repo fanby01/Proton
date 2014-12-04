@@ -1,6 +1,6 @@
-package tv.stardream.proton.dracula.data;
+package tv.stardream.Proton.dracula.data;
 
-import tv.stardream.proton.dracula.entity.User;
+import tv.stardream.Proton.dracula.entity.User;
 import org.springside.modules.test.data.RandomData;
 
 public class UserData {

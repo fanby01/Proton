@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.functional;
+package tv.stardream.Proton.dracula.functional;
 
 import static org.junit.Assert.*;
 
@@ -46,12 +46,12 @@ public class BaseSeleniumTestCase extends BaseFunctionalTestCase {
 	protected static void loginAsUserIfNecessary() {
 		s.open("/task");
 
-		if ("dracula study project示例:登录页".equals(s.getTitle())) {
+		if ("dracula示例:登录页".equals(s.getTitle())) {
 			s.type(By.name("username"), "user");
 			s.type(By.name("password"), "user");
 			s.check(By.name("rememberMe"));
 			s.click(By.id("submit_btn"));
-			assertEquals("dracula study project示例:任务管理", s.getTitle());
+			assertEquals("dracula示例:任务管理", s.getTitle());
 		}
 	}
 

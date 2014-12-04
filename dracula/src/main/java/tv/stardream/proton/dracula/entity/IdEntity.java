@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.entity;
+package tv.stardream.Proton.dracula.entity;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

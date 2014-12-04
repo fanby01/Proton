@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.entity;
+package tv.stardream.Proton.dracula.entity;
 
 import java.util.Date;
 import java.util.List;

@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.repository;
+package tv.stardream.Proton.dracula.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
-import tv.stardream.proton.dracula.entity.Task;
+import tv.stardream.Proton.dracula.entity.Task;
 
 public interface TaskDao extends PagingAndSortingRepository<Task, Long>, JpaSpecificationExecutor<Task> {
 

@@ -15,7 +15,7 @@
 	<description>Spring公共配置 </description>
 
 	<!-- 使用annotation 自动注册bean, 并保证@Required、@Autowired的属性被注入 -->
-	<context:component-scan base-package="tv.stardream.proton.dracula">
+	<context:component-scan base-package="tv.stardream.Proton.dracula">
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 	</context:component-scan>
 
@@ -23,7 +23,7 @@
 	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"> 
 		<property name="dataSource" ref="dataSource"/>
 		<property name="jpaVendorAdapter" ref="hibernateJpaVendorAdapter"/>
-		<property name="packagesToScan" value="tv.stardream.proton.dracula"/>
+		<property name="packagesToScan" value="tv.stardream.Proton.dracula"/>
 		<property name="jpaProperties">
 			<props>
 				<!-- 命名规则 My_NAME->MyName -->
@@ -41,7 +41,7 @@
 	</bean>
 
 	<!-- Spring Data Jpa配置 -->
- 	<jpa:repositories base-package="tv.stardream.proton.dracula"  transaction-manager-ref="transactionManager" entity-manager-factory-ref="entityManagerFactory"/>
+ 	<jpa:repositories base-package="tv.stardream.Proton.dracula"  transaction-manager-ref="transactionManager" entity-manager-factory-ref="entityManagerFactory"/>
    
 	<!-- Jpa 事务配置 -->
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">

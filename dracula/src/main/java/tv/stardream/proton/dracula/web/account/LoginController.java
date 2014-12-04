@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.web.account;
+package tv.stardream.Proton.dracula.web.account;
 
 import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
 import org.springframework.stereotype.Controller;

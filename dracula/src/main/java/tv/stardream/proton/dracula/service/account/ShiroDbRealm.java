@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package tv.stardream.proton.dracula.service.account;
+package tv.stardream.Proton.dracula.service.account;
 
 import java.io.Serializable;
 
@@ -36,7 +36,7 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
-import tv.stardream.proton.dracula.entity.User;
+import tv.stardream.Proton.dracula.entity.User;
 import org.springside.modules.utils.Encodes;
 
 public class ShiroDbRealm extends AuthorizingRealm {

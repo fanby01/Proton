@@ -1,4 +1,4 @@
-package tv.stardream.proton.dracula.functional.gui;
+package tv.stardream.Proton.dracula.functional.gui;
 
 import static org.junit.Assert.*;
 
@@ -6,9 +6,9 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import tv.stardream.proton.dracula.data.TaskData;
-import tv.stardream.proton.dracula.entity.Task;
-import tv.stardream.proton.dracula.functional.BaseSeleniumTestCase;
+import tv.stardream.Proton.dracula.data.TaskData;
+import tv.stardream.Proton.dracula.entity.Task;
+import tv.stardream.Proton.dracula.functional.BaseSeleniumTestCase;
 import org.springside.modules.test.category.Smoke;
 
 /**

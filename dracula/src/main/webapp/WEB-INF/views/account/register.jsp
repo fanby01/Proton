@@ -19,7 +19,7 @@
 				},
 				messages: {
 					loginName: {
-						remote: "用户登录名已存在"
+						remote: "用户登录名已存在!"
 					}
 				}
 			});
